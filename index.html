@@ -4,9 +4,36 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Portfolio</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans JP",sans-serif;margin:0;line-height:1.6}
+    .wrap{max-width:960px;margin:0 auto;padding:56px 20px}
+    h1{font-size:28px;margin:0 0 8px}
+    .sub{opacity:.7;margin:0 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    .card{border:1px solid rgba(0,0,0,.12);border-radius:12px;padding:16px}
+    .tag{display:inline-block;font-size:12px;opacity:.7;margin-top:10px}
+    a{color:inherit}
+  </style>
 </head>
 <body>
-  <h1>Portfolio</h1>
-  <p>Deploy check OK.</p>
+  <div class="wrap">
+    <h1>Masanori Iida — Portfolio</h1>
+    <p class="sub">Redesign / UI / Data-driven design</p>
+
+    <div class="grid">
+      <div class="card">
+        <h2 style="font-size:18px;margin:0 0 8px;">mont-bell Redesign</h2>
+        <p style="margin:0 0 10px;">トップページの構造再設計（Before/After）＋ ヒエラルキー/レイアウト分析。</p>
+        <a href="#" aria-label="mont-bell case study">View</a>
+        <div class="tag">Case Study</div>
+      </div>
+
+      <div class="card">
+        <h2 style="font-size:18px;margin:0 0 8px;">Medical SaaS Redesign</h2>
+        <p style="margin:0 0 10px;">次の題材（準備中）。</p>
+        <span class="tag">Coming soon</span>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
